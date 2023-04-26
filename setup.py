@@ -13,6 +13,14 @@ setup(
     description="Reward Point System for Dunder Mifflin",
     author="Bruno Rocha / Fabio Araujo",
     packages=find_packages(),
+<<<<<<< HEAD
+=======
+    entry_points={
+    "console_scripts":[
+    "dundie = dundie.__main__: main"
+    ]
+    }
+>>>>>>> 9ebb628 (turned to installable binary #9)
     
 )
 
