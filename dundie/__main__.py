@@ -1,6 +1,35 @@
-<<<<<<< HEAD
-print("Execute entrypoint dundie")
-=======
-def main():
-    print("Execute entrypoint dundie.")
->>>>>>> 9ebb628 (turned to installable binary #9)
+from dundie.cli import main
+
+
+if __name__ == "__main__":
+    main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if __name__ == "__main__":
+    main()
+
