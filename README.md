@@ -1,5 +1,7 @@
 # dundie-rewards
 
+[![CI](https://github.com/sagazluiz/dundie-rewards/actions/workflows/main.yaml/badge.svg)](https://github.com/sagazluiz/dundie-rewards/actions/workflows/main.yaml)
+
 Point rewards system for dunder miflin company
 
 Nós fomos contratados pela Dunder Mifflin, grande fabricante de papéis para desenvolver um sistema de recompensas para seus colaboradores.
