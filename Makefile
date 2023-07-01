@@ -14,7 +14,7 @@ ipython:
 	@.venv/bin/ipython
 
 test:
-	@.venv/bin/pytest -vv -s tests/
+	@.venv/bin/pytest -vv -s
 
 testci:
 	@.venv/bin/pytest -v --junitxml=test-result.xml
