@@ -9,7 +9,7 @@ testpaths = [
 
 [tool.flake8]
 exclude = [".venv", "build"]
-max-line-length = 79
+max-line-length = 100
 # extend-ignore = "W293,"
 
 [tool.black]
