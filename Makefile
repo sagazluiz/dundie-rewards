@@ -13,6 +13,7 @@ virtualenv:
 ipython:
 	@.venv/bin/ipython
 
+
 lint:
 	@.venv/bin/pflake8
 

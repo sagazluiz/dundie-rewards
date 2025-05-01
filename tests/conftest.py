@@ -1,4 +1,4 @@
-MARKER = """
+MARKER = """\
 unit: Mark unit tests
 integration: Mark integration tests
 high: High Priority

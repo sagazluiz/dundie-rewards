@@ -1,8 +1,8 @@
-MARKER = """
+MARKER = """\
 unit: Mark unit tests
 integration: Mark integration tests
 high: High Priority
-medium: Mediu Priority
+medium: Medium Priority
 low: Low Priority
 """
 

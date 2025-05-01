@@ -1,14 +1,15 @@
 """Core module of dundie"""
+
 from dundie.utils.log import get_logger
 
 log = get_logger
 
 
 def load(filepath):
-    """Load data from filepath do the database
+    """Load data from filepath do the database.
+
     >>> len(load('assets/people.csv'))
     2
-
     """
     try:
         with open(filepath) as file_:

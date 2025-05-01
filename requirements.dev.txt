@@ -12,5 +12,3 @@ isort
 
 # Install project as editable
 -e .
-
-
