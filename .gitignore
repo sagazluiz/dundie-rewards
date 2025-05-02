@@ -132,3 +132,6 @@ dmypy.json
 
 #ignore logs
 *.log.*
+
+# notations
+notations.md
