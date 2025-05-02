@@ -1,7 +1,7 @@
 import pkg_resources
 import rich_click as click
-from rich.table import Table
 from rich.console import Console
+from rich.table import Table
 
 from dundie import core
 
@@ -25,13 +25,13 @@ def main():
 @click.argument("filepath", type=click.Path(exists=True))
 def load(filepath):
     """Loads the file to the database.
-    
+
     ### Features
-    
+
     - Validates data
     - Parses the file
     - Loads to database
-    
+
     """
 
     table = Table(title="Dunder Mifflin Associates")
@@ -39,11 +39,9 @@ def load(filepath):
     for header in headers:
         table.add_column(header, style="magenta")
 
-    
     result = core.load(filepath)
     for person in result:
         table.add_row(*[field.strip() for field in person.split(",")])
 
     console = Console()
     console.print(table)
-            
