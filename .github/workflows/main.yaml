@@ -28,8 +28,8 @@ jobs:
         run: pip install '.[test]'
       - name: Look for style errors
         run: pflake8
-      - name: Check for import style
-        run: isort --profile=black --check --dif dundie tests integration
+      - name: Check for importing style
+        run: isort --profile=black --check --diff dundie tests integration
       - name: Look for auto format errors
         run: black --check --diff dundie tests integration
 
@@ -49,9 +49,9 @@ jobs:
       - name: Install Project
         run: pip install '.[test]'
       - name: Run tests
-        run: pytest -v --junitxml=test-result.xml
+        run: pytest -v --forked --junitxml=test-result.xml
       - name: publish junit results
-        uses: EnricoMi/publish-unit-test-result-action@v2
+        uses: EnricoMi/publish-unit-test-result-action@v1
         if: always()
         with:
           files: test-result.xml
