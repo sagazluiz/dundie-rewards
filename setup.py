@@ -26,7 +26,7 @@ def read_requirements(path):
 
 
 setup(
-    name="sagazluiz-dundie",
+    name="dundie",
     # Major.Minor.Patch
     # X.Y.Z
     version="0.1.0",
